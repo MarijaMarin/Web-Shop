@@ -1,0 +1,249 @@
+header {
+	background-color: gray;
+	height: 30vh;
+}
+body {
+	background-color: gray;
+}
+main {
+	background-color: grey;
+	height: 60%;
+}
+footer {
+	background-color: cadetblue;
+}
+nav {
+	background-color: rgb(30, 232, 230);
+	background: linear-gradient(
+		90deg,
+		rgba(30, 232, 230, 0.4682247899159664) 17%,
+		rgba(2, 0, 36, 1) 100%,
+		rgba(0, 212, 255, 1) 100%
+	);
+}
+li :hover {
+	background-color: royalblue;
+}
+h1 {
+	background-color: darkgrey;
+	margin: 0;
+	padding: 0;
+}
+#blue {
+	color: lightseagreen;
+	font-size: large;
+	font-size: 3em;
+}
+#grey {
+	color: white;
+	font-size: 3em;
+}
+body ul {
+	margin: 0;
+	padding: 0;
+}
+nav ul {
+	list-style: none;
+	margin-left: 5vh;
+	padding: 2em;
+	height: 5vh;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 23px;
+	padding: 7px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 4px 8px;
+	grid-template-areas: "E1 E2 E3" "E5 E6 E7" "E8 E9 E4";
+	margin-left: 1.2em;
+	margin-right: 1.2em;
+	margin-top: 20px;
+}
+
+.E1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.4fr 0.6fr;
+	gap: 10px 12px;
+	grid-template-areas: "." ".";
+	grid-area: E1;
+	background-color: ivory;
+}
+
+.E2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.4fr 0.6fr;
+	gap: 10px 12px;
+	grid-template-areas: "." ".";
+	grid-area: E2;
+	background-color: ivory;
+}
+
+.E3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.4fr 0.6fr;
+	gap: 10px 12px;
+	grid-template-areas: "." ".";
+	grid-area: E3;
+	background-color: ivory;
+}
+
+.E5 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.4fr 0.6fr;
+	gap: 10px 12px;
+	grid-template-areas: "." ".";
+	grid-area: E5;
+	background-color: ivory;
+}
+
+.E6 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.4fr 0.6fr;
+	gap: 10px 12px;
+	grid-template-areas: "." ".";
+	grid-area: E6;
+	background-color: ivory;
+}
+
+.E7 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.4fr 0.6fr;
+	gap: 10px 12px;
+	grid-template-areas: "." ".";
+	grid-area: E7;
+	background-color: ivory;
+}
+
+.E8 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.4fr 0.6fr;
+	gap: 10px 12px;
+	grid-template-areas: "." ".";
+	grid-area: E8;
+	background-color: ivory;
+}
+
+.E9 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.4fr 0.6fr;
+	gap: 10px 12px;
+	grid-template-areas: "." ".";
+	grid-area: E9;
+	background-color: ivory;
+}
+
+.E4 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1.4fr 0.6fr;
+	gap: 10px 12px;
+	grid-template-areas: "." ".";
+	grid-area: E4;
+	background-color: ivory;
+}
+
+.par {
+	color: darkslategrey;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	padding: 6px;
+	text-align: right;
+	font-weight: 700;
+}
+.cena {
+	color: rgba(2, 0, 36, 1);
+	padding: 0;
+}
+
+.button {
+	width: 3em;
+	height: 3em;
+	color: white;
+	background-color: rgb(167, 19, 19);
+	border-radius: 1.5em;
+	font-size: 15px;
+	padding: 0;
+	margin-left: 40%;
+	margin-top: 0px;
+}
+button :hover {
+	background-color: rgb(230, 9, 9);
+}
+.wrapper {
+	flex-direction: column;
+	float: left;
+	height: 50vh;
+}
+.container {
+	flex-direction: column;
+	float: right;
+	width: 170px;
+	height: 220px;
+	background-color: rgba(47, 79, 79, 0.575);
+	margin-right: 50px;
+}
+#kozaza {
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+.button1 {
+	align-items: center;
+	height: 35px;
+	width: 110px;
+	background-color: seagreen;
+	font-size: 20px;
+	color: white;
+	border: none;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.button1:hover {
+	background-color: springgreen;
+}
+
+#koko {
+	flex-direction: column;
+	float: right;
+	margin-right: 20vw;
+}
+
+.element1 {
+	align-items: center;
+	flex-direction: row;
+}
+.element2 {
+	align-items: center;
+	flex-direction: row;
+	margin-left: 60px;
+}
+.element3 {
+	align-items: center;
+	flex-direction: row;
+	margin-left: 0;
+}
+.slika {
+	width: 13.125em;
+}
